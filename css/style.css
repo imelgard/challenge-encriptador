@@ -156,7 +156,7 @@ main{
 .main__tarjeta__btncopiar:active,
 .main__encriptador__contenedor__btndesencriptar:active{
     box-shadow: inset 2px 2px 4px var(--Darkblue);
-    inset -3px -4px 8px var(--Font);
+    inset: -3px -4px 8px var(--Font);
     color: var(--Medium-Blue);
 }
 
