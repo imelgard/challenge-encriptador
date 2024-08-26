@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="./imagenes/favicon.ico">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Challenge Encriptador de Texto AGOSTO 2024</title>
+</head>
+<body>
+    <!--Encabezado-->
+    <header>
+        <a href="#" rel="">
+            <img src="./imagenes/logo.svg" alt="Logo ALURA" class="header__logo">
+        </a>
+    </header>
+
+    <!--Cuerpo principal-->
+    <main>
+        <section class="main__encriptador">
+            <textarea class="main__encriptador_encriptar" placeholder="Ingrese el texto aqui"></textarea>
+            <div class="main__encriptador__aviso">
+                <img src="./imagenes/aviso.svg" alt="Imagen AVISO" class="main__encriptador__aviso__imagen">
+                <p class="main__encriptador__aviso__texto__aviso">Sólo letras minúsculas y sin acentos</p>
+            </div>
+            <div class="main__encriptador__contenedor">
+                <button type="submit" class="main__encriptador__contenedor__btnencriptar">Encriptar!</button>
+                <button type="submit" class="main__encriptador__contenedor__btndesencriptar">Desencriptar!</button>
+            </div>
+        </section>
+        <section class="main__tarjeta">
+            <div class="main__tarjeta__contenedor">
+                <img src="./imagenes/muñeco.svg" alt="Imagen muñeco" class="main__tarjeta__contenedor__muñeco">
+                <p class="main__tarjeta__contenedor__texto1">Ningun mensaje fue encontrado</p>
+                <p class="main__tarjeta__contenedor__texto2">Ingrese el texto que deseas encriptar o desencriptar</p>
+            </div>
+            <textarea type="mensaje" class="main__tarjeta__evaluar" readonly></textarea>
+            <button type="submit" class="main__tarjeta__btncopiar">Copiar</button>
+        </section>
+    </main>
+    
+    <!--Pie de pagina-->
+    <footer>
+        <p class="footer__copyrigth">&copy; copyrigth 2024 Encriptador de Texto - Desarrollado por Iván Melgar</p>
+        <a href="#" rel="">
+            <img src="./imagenes/linkedin.svg" alt="Logo Linkkedin" class="footer__copyrigth__linkedin">
+        </a>
+        <a href="#" rel="">
+            <img src="./imagenes/github.svg" alt="Logo GitHub" class="footer__copyrigth__git">
+         </a>
+    </footer>
+
+    <script src="./js/encriptador.js"></script>
+</body>
+</html>
